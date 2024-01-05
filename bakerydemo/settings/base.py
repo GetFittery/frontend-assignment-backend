@@ -89,6 +89,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "wagtail.contrib.redirects.middleware.RedirectMiddleware",
     "bakerydemo.base.middleware.NoIndexMiddleware",
+    "bakerydemo.base.middleware.CorsMiddleware",
 ]
 
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
